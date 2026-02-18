@@ -28,3 +28,92 @@ Users can register, log in, post questions, view latest questions, search questi
 ---
 
 ## 📂 Project Structure
+Discuss/
+│── client/
+│── config.php
+│── index.php
+│── login.php
+│── signup.php
+│── questions.php
+│── README.md
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+
+
+git clone https://github.com/harshgavandit/Discuss-PHP.git
+
+
+### 2️⃣ Move Project to XAMPP
+
+Place the folder inside:
+
+
+C:\xampp\htdocs\
+
+
+### 3️⃣ Create Database
+
+Open phpMyAdmin and create a database named:
+
+
+discuss
+
+
+### 4️⃣ Configure Database
+
+Update `config.php` with your database credentials:
+
+
+$host = "localhost";
+$dbname = "discuss";
+$username = "root";
+$password = "";
+
+
+### 5️⃣ Run Project
+
+Start Apache & MySQL from XAMPP.
+
+Open browser:
+
+
+http://localhost/Discuss
+
+
+---
+
+## 🔐 Security Features
+
+- PDO Prepared Statements (Prevents SQL Injection)
+- Session-based Authentication
+- Owner-based Delete Protection
+
+---
+
+## 📸 Future Improvements
+
+- Upvote / Downvote System
+- Answer Section
+- Comment System
+- Admin Panel
+- CSRF Protection
+- Password Hashing Improvement
+
+---
+
+## 👨‍💻 Author
+
+Harsh Gavand  
+BTech IT Student  
+Learning Full Stack Development & DevOps 🚀
+
+---
+
+## ⭐ If You Like This Project
+
+Give it a ⭐ on GitHub!
